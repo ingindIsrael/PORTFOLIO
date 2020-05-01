@@ -24,7 +24,7 @@ class ProfilePage3 extends StatelessWidget {
         //html.window.open("https://pawan.live", "Pk");
         Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => MyApp2())
+            MaterialPageRoute(builder: (context) => ProfilePage2())
         );
       },
     ),
