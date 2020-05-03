@@ -17,7 +17,7 @@ class ProfilePage4 extends StatelessWidget {
     NavButton(
       text: "Objective",
       onPressed: () {
-       // html.window.open("https://pawan.live", "Pk");
+      
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => MyApp2()),
