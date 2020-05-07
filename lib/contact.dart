@@ -320,7 +320,7 @@ class SocialInfo extends StatelessWidget {
       NavButton(
         text: "Objective",
         onPressed: () {
-          //html.window.open("https://github.com/iampawan", "Git");
+       
           Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => MyApp2())
