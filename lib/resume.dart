@@ -17,7 +17,7 @@ class ProfilePage4 extends StatelessWidget {
     NavButton(
       text: "Objective",
       onPressed: () {
-       // html.window.open("https://pawan.live", "Pk");
+      
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => MyApp2()),
@@ -36,7 +36,7 @@ class ProfilePage4 extends StatelessWidget {
     NavButton(
       text: "Contact",
       onPressed: () {
-       // html.window.open("https://pawan.live", "Pk");
+       
         Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => MyApp3())
@@ -226,7 +226,7 @@ class SocialInfo extends StatelessWidget {
       NavButton(
         text: "Objective",
         onPressed: () {
-          //html.window.open("https://github.com/iampawan", "Git");
+          
           Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => MyApp2())
@@ -247,7 +247,7 @@ class SocialInfo extends StatelessWidget {
       NavButton(
         text: "Contact",
         onPressed: () {
-          //html.window.open("https://facebook.com/thepawankumaar", "Fb");
+          
           Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => MyApp3())
